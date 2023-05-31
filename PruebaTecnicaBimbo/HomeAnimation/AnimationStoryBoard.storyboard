@@ -90,4 +90,7 @@
             <point key="canvasLocation" x="136.64122137404578" y="4.9295774647887329"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="jF4-BI-6S2"/>
+    </designables>
 </document>
