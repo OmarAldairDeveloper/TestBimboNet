@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eSK-OV-xWa">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Animation View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="AnimationViewController" customModule="PruebaTecnicaBimbo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jF4-BI-6S2" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="0.0" y="103" width="393" height="393"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jF4-BI-6S2" secondAttribute="height" multiplier="1:1" id="DtG-K7-UVL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="rocket"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1R-x9-l1f">
+                                <rect key="frame" x="20" y="756" width="353" height="42"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="TfU-te-pvG"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Iniciar">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="iniTAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="BQ1-B9-oGh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La app que te ayuda a conocer los lanzamientos realizados por SpaceX" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C82-L0-L0B">
+                                <rect key="frame" x="16" y="520" width="361" height="40.666666666666629"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jF4-BI-6S2" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" id="3Uy-fX-PZ9"/>
+                            <constraint firstItem="C82-L0-L0B" firstAttribute="top" secondItem="jF4-BI-6S2" secondAttribute="bottom" constant="24" id="3dA-gi-Wqf"/>
+                            <constraint firstItem="Q1R-x9-l1f" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="7E4-Qi-ydv"/>
+                            <constraint firstItem="Q1R-x9-l1f" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" constant="-20" id="DSc-BF-XSL"/>
+                            <constraint firstItem="jF4-BI-6S2" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="MlZ-Wz-Hwo"/>
+                            <constraint firstItem="C82-L0-L0B" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="P8J-7a-0k5"/>
+                            <constraint firstItem="jF4-BI-6S2" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Uad-1P-ZBG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Q1R-x9-l1f" secondAttribute="trailing" constant="20" id="e7l-NT-FP4"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="C82-L0-L0B" secondAttribute="trailing" constant="16" id="epI-6n-yeJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="FQx-Nw-skY"/>
+                    <connections>
+                        <outlet property="animationView" destination="jF4-BI-6S2" id="bxd-B0-NOg"/>
+                        <outlet property="initButton" destination="Q1R-x9-l1f" id="tPq-Xw-mYW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1063.3587786259541" y="4.9295774647887329"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Q6O-Jm-pve">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eSK-OV-xWa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="k4T-3v-EmP">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="1nv-mp-1Gq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bxE-wB-muU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.64122137404578" y="4.9295774647887329"/>
+        </scene>
+    </scenes>
+</document>

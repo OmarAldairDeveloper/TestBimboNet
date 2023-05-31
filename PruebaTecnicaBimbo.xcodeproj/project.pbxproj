@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B393F9DFC253BA0E690C21 /* Pods_PruebaTecnicaBimbo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A2A83A79E394A926ED4FEE /* Pods_PruebaTecnicaBimbo.framework */; };
 		341030462A25376400EF679B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341030452A25376400EF679B /* AppDelegate.swift */; };
 		341030482A25376400EF679B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341030472A25376400EF679B /* SceneDelegate.swift */; };
 		3410304A2A25376400EF679B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341030492A25376400EF679B /* ViewController.swift */; };
 		3410304D2A25376400EF679B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3410304B2A25376400EF679B /* Main.storyboard */; };
 		3410304F2A25376500EF679B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3410304E2A25376500EF679B /* Assets.xcassets */; };
 		341030522A25376500EF679B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341030502A25376500EF679B /* LaunchScreen.storyboard */; };
+		3410305A2A253DBD00EF679B /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341030592A253DBD00EF679B /* Mission.swift */; };
+		341030612A25456200EF679B /* MissionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410305F2A25456200EF679B /* MissionCell.swift */; };
+		341030622A25456200EF679B /* MissionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 341030602A25456200EF679B /* MissionCell.xib */; };
+		345974AD2A267E3A00C2B480 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345974AB2A267E3A00C2B480 /* DetailViewController.swift */; };
+		345974AE2A267E3A00C2B480 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345974AC2A267E3A00C2B480 /* DetailViewController.xib */; };
+		345974B12A2698A800C2B480 /* CarrouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345974AF2A2698A800C2B480 /* CarrouselCell.swift */; };
+		345974B22A2698A800C2B480 /* CarrouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345974B02A2698A800C2B480 /* CarrouselCell.xib */; };
+		34B6A8952A27B6F500581AC0 /* YoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6A8932A27B6F500581AC0 /* YoutubeViewController.swift */; };
+		34B6A8962A27B6F500581AC0 /* YoutubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34B6A8942A27B6F500581AC0 /* YoutubeViewController.xib */; };
+		34B6A89B2A27BD4B00581AC0 /* ZUGenericWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6A8992A27BD4B00581AC0 /* ZUGenericWebView.swift */; };
+		34B6A89D2A27BE5F00581AC0 /* ZUNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6A89C2A27BE5F00581AC0 /* ZUNavigationBar.swift */; };
+		34B6A89F2A27BEF700581AC0 /* ZUNavigationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6A89E2A27BEF700581AC0 /* ZUNavigationButton.swift */; };
+		34B6A8A72A27CB0900581AC0 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6A8A52A27CB0900581AC0 /* AnimationViewController.swift */; };
+		34B6A8AA2A27CB7700581AC0 /* AnimationStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B6A8A92A27CB7700581AC0 /* AnimationStoryBoard.storyboard */; };
+		34B6A8AC2A27D0FE00581AC0 /* rocket.json in Resources */ = {isa = PBXBuildFile; fileRef = 34B6A8AB2A27D0FE00581AC0 /* rocket.json */; };
+		34B6A8B02A27D2C400581AC0 /* ViewModelHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6A8AF2A27D2C400581AC0 /* ViewModelHome.swift */; };
+		34B6A8B22A27E2B900581AC0 /* Extensions+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B6A8B12A27E2B900581AC0 /* Extensions+Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +42,26 @@
 		3410304E2A25376500EF679B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		341030512A25376500EF679B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		341030532A25376500EF679B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341030592A253DBD00EF679B /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		3410305F2A25456200EF679B /* MissionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCell.swift; sourceTree = "<group>"; };
+		341030602A25456200EF679B /* MissionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MissionCell.xib; sourceTree = "<group>"; };
+		345974AB2A267E3A00C2B480 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		345974AC2A267E3A00C2B480 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		345974AF2A2698A800C2B480 /* CarrouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrouselCell.swift; sourceTree = "<group>"; };
+		345974B02A2698A800C2B480 /* CarrouselCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarrouselCell.xib; sourceTree = "<group>"; };
+		34B6A8932A27B6F500581AC0 /* YoutubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewController.swift; sourceTree = "<group>"; };
+		34B6A8942A27B6F500581AC0 /* YoutubeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YoutubeViewController.xib; sourceTree = "<group>"; };
+		34B6A8992A27BD4B00581AC0 /* ZUGenericWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZUGenericWebView.swift; sourceTree = "<group>"; };
+		34B6A89C2A27BE5F00581AC0 /* ZUNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZUNavigationBar.swift; sourceTree = "<group>"; };
+		34B6A89E2A27BEF700581AC0 /* ZUNavigationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZUNavigationButton.swift; sourceTree = "<group>"; };
+		34B6A8A52A27CB0900581AC0 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		34B6A8A92A27CB7700581AC0 /* AnimationStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AnimationStoryBoard.storyboard; sourceTree = "<group>"; };
+		34B6A8AB2A27D0FE00581AC0 /* rocket.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rocket.json; sourceTree = "<group>"; };
+		34B6A8AF2A27D2C400581AC0 /* ViewModelHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelHome.swift; sourceTree = "<group>"; };
+		34B6A8B12A27E2B900581AC0 /* Extensions+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Date.swift"; sourceTree = "<group>"; };
+		473B35EA609E2A3168CF120C /* Pods-PruebaTecnicaBimbo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaTecnicaBimbo.debug.xcconfig"; path = "Target Support Files/Pods-PruebaTecnicaBimbo/Pods-PruebaTecnicaBimbo.debug.xcconfig"; sourceTree = "<group>"; };
+		A9CFB1DB514C6E2DB2BDDC62 /* Pods-PruebaTecnicaBimbo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PruebaTecnicaBimbo.release.xcconfig"; path = "Target Support Files/Pods-PruebaTecnicaBimbo/Pods-PruebaTecnicaBimbo.release.xcconfig"; sourceTree = "<group>"; };
+		C0A2A83A79E394A926ED4FEE /* Pods_PruebaTecnicaBimbo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PruebaTecnicaBimbo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B393F9DFC253BA0E690C21 /* Pods_PruebaTecnicaBimbo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +81,8 @@
 			children = (
 				341030442A25376400EF679B /* PruebaTecnicaBimbo */,
 				341030432A25376400EF679B /* Products */,
+				E8C9243BFA7BCB9A621C2B96 /* Pods */,
+				BD40244BC94FC28B2ADC4055 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +97,137 @@
 		341030442A25376400EF679B /* PruebaTecnicaBimbo */ = {
 			isa = PBXGroup;
 			children = (
+				34B6A8972A27BD4200581AC0 /* WebView */,
+				34B6A8922A27B6E000581AC0 /* VideoPlayer */,
+				34B6A8A02A27C94200581AC0 /* HomeAnimation */,
+				345974A52A267DDC00C2B480 /* Home */,
+				345974A92A267E1900C2B480 /* Detail */,
 				341030452A25376400EF679B /* AppDelegate.swift */,
 				341030472A25376400EF679B /* SceneDelegate.swift */,
-				341030492A25376400EF679B /* ViewController.swift */,
-				3410304B2A25376400EF679B /* Main.storyboard */,
 				3410304E2A25376500EF679B /* Assets.xcassets */,
 				341030502A25376500EF679B /* LaunchScreen.storyboard */,
 				341030532A25376500EF679B /* Info.plist */,
 			);
 			path = PruebaTecnicaBimbo;
+			sourceTree = "<group>";
+		};
+		345974A52A267DDC00C2B480 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				34B6A8AE2A27D25A00581AC0 /* ViewModel */,
+				345974A72A267DF600C2B480 /* Model */,
+				345974A62A267DEC00C2B480 /* View */,
+				34B6A8B12A27E2B900581AC0 /* Extensions+Date.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		345974A62A267DEC00C2B480 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				345974A82A267E0400C2B480 /* Cells */,
+				341030492A25376400EF679B /* ViewController.swift */,
+				3410304B2A25376400EF679B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		345974A72A267DF600C2B480 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				341030592A253DBD00EF679B /* Mission.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		345974A82A267E0400C2B480 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3410305F2A25456200EF679B /* MissionCell.swift */,
+				341030602A25456200EF679B /* MissionCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		345974A92A267E1900C2B480 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				345974AA2A267E2000C2B480 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		345974AA2A267E2000C2B480 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34B6A8AD2A27D24800581AC0 /* Cells */,
+				345974AB2A267E3A00C2B480 /* DetailViewController.swift */,
+				345974AC2A267E3A00C2B480 /* DetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34B6A8922A27B6E000581AC0 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				34B6A8932A27B6F500581AC0 /* YoutubeViewController.swift */,
+				34B6A8942A27B6F500581AC0 /* YoutubeViewController.xib */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		34B6A8972A27BD4200581AC0 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				34B6A8992A27BD4B00581AC0 /* ZUGenericWebView.swift */,
+				34B6A89C2A27BE5F00581AC0 /* ZUNavigationBar.swift */,
+				34B6A89E2A27BEF700581AC0 /* ZUNavigationButton.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		34B6A8A02A27C94200581AC0 /* HomeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				34B6A8A52A27CB0900581AC0 /* AnimationViewController.swift */,
+				34B6A8A92A27CB7700581AC0 /* AnimationStoryBoard.storyboard */,
+				34B6A8AB2A27D0FE00581AC0 /* rocket.json */,
+			);
+			path = HomeAnimation;
+			sourceTree = "<group>";
+		};
+		34B6A8AD2A27D24800581AC0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				345974AF2A2698A800C2B480 /* CarrouselCell.swift */,
+				345974B02A2698A800C2B480 /* CarrouselCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		34B6A8AE2A27D25A00581AC0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				34B6A8AF2A27D2C400581AC0 /* ViewModelHome.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD40244BC94FC28B2ADC4055 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0A2A83A79E394A926ED4FEE /* Pods_PruebaTecnicaBimbo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8C9243BFA7BCB9A621C2B96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				473B35EA609E2A3168CF120C /* Pods-PruebaTecnicaBimbo.debug.xcconfig */,
+				A9CFB1DB514C6E2DB2BDDC62 /* Pods-PruebaTecnicaBimbo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 341030562A25376500EF679B /* Build configuration list for PBXNativeTarget "PruebaTecnicaBimbo" */;
 			buildPhases = (
+				581EC5196D2D45ABEF01AD1E /* [CP] Check Pods Manifest.lock */,
 				3410303E2A25376400EF679B /* Sources */,
 				3410303F2A25376400EF679B /* Frameworks */,
 				341030402A25376400EF679B /* Resources */,
+				C62C7004C987CCF4E900D62F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +290,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				345974B22A2698A800C2B480 /* CarrouselCell.xib in Resources */,
+				34B6A8962A27B6F500581AC0 /* YoutubeViewController.xib in Resources */,
 				341030522A25376500EF679B /* LaunchScreen.storyboard in Resources */,
 				3410304F2A25376500EF679B /* Assets.xcassets in Resources */,
+				34B6A8AA2A27CB7700581AC0 /* AnimationStoryBoard.storyboard in Resources */,
+				34B6A8AC2A27D0FE00581AC0 /* rocket.json in Resources */,
+				345974AE2A267E3A00C2B480 /* DetailViewController.xib in Resources */,
+				341030622A25456200EF679B /* MissionCell.xib in Resources */,
 				3410304D2A25376400EF679B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		581EC5196D2D45ABEF01AD1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PruebaTecnicaBimbo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C62C7004C987CCF4E900D62F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PruebaTecnicaBimbo/Pods-PruebaTecnicaBimbo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PruebaTecnicaBimbo/Pods-PruebaTecnicaBimbo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PruebaTecnicaBimbo/Pods-PruebaTecnicaBimbo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3410303E2A25376400EF679B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B6A89F2A27BEF700581AC0 /* ZUNavigationButton.swift in Sources */,
 				3410304A2A25376400EF679B /* ViewController.swift in Sources */,
+				341030612A25456200EF679B /* MissionCell.swift in Sources */,
+				34B6A8A72A27CB0900581AC0 /* AnimationViewController.swift in Sources */,
+				34B6A8952A27B6F500581AC0 /* YoutubeViewController.swift in Sources */,
+				34B6A8B22A27E2B900581AC0 /* Extensions+Date.swift in Sources */,
+				345974B12A2698A800C2B480 /* CarrouselCell.swift in Sources */,
 				341030462A25376400EF679B /* AppDelegate.swift in Sources */,
+				34B6A8B02A27D2C400581AC0 /* ViewModelHome.swift in Sources */,
+				345974AD2A267E3A00C2B480 /* DetailViewController.swift in Sources */,
+				3410305A2A253DBD00EF679B /* Mission.swift in Sources */,
+				34B6A89B2A27BD4B00581AC0 /* ZUGenericWebView.swift in Sources */,
+				34B6A89D2A27BE5F00581AC0 /* ZUNavigationBar.swift in Sources */,
 				341030482A25376400EF679B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +506,7 @@
 		};
 		341030572A25376500EF679B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473B35EA609E2A3168CF120C /* Pods-PruebaTecnicaBimbo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +535,7 @@
 		};
 		341030582A25376500EF679B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9CFB1DB514C6E2DB2BDDC62 /* Pods-PruebaTecnicaBimbo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
